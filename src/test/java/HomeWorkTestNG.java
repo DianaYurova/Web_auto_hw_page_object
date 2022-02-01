@@ -52,12 +52,6 @@ public class HomeWorkTestNG {
         webElement = driver.findElement(By.id("txtGlobalSearch"));
         act = new Actions(driver);
     }
-//    @DataProvider(name = "inputData", parallel = true)
-//    public Object[][] dataProviderMethod() {
-//        return new Object[][]{
-//
-//        };
-//    }
 
     @Test (groups = {"Positives"})
     public void DouSearch1(){
